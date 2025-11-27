@@ -1,0 +1,15 @@
+look
+go east
+look
+take scroll
+look
+solve echo
+inventory
+go west
+go north
+go east
+look
+take herb
+go west
+go north
+use key

@@ -2,9 +2,9 @@
 name = "treasure-labyrinth"
 version = "0.1.0"
 description = "A text-based adventure game"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Arseniy <your.email@example.com>"]
 readme = "README.md"
-packages = [{include = "treasure_labyrinth", from = "."}]
+packages = [{include = "*.py"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -13,7 +13,7 @@ python = "^3.8"
 ruff = "^0.1.6"
 
 [tool.poetry.scripts]
-treasure-labyrinth = "treasure_labyrinth.main:main"
+treasure-labyrinth = "main:main"
 
 [build-system]
 requires = ["poetry-core"]
