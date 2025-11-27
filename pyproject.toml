@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "treasure-labyrinth"
+version = "0.1.0"
+description = "A text-based adventure game"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "treasure_labyrinth", from = "."}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.6"
+
+[tool.poetry.scripts]
+treasure-labyrinth = "treasure_labyrinth.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+target-version = "py38"
+line-length = 88
+select = ["E", "F", "W", "I", "N"]
+ignore = []
