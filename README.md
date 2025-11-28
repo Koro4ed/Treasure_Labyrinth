@@ -40,5 +40,5 @@ Run the game: `poetry run treasure-labyrinth`
 
 ## Gameplay Recording
 
-https://asciinema.org/connect/f852f1fe-2184-4163-8280-ded9f7c4950f
+https://asciinema.org/a/hBiL4jPa0oqJfNBMnOJJdXDYj
 
